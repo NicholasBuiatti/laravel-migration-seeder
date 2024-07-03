@@ -13,7 +13,6 @@ class PageController extends Controller
         $treni = Train::all();
         $data = [
             "treni" => $treni,
-            'aa' => 53,
         ];
         return view('trainsPage', $data);
     }
